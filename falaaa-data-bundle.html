@@ -368,7 +368,7 @@ footer span{color:var(--gold);}
     </div>
     <button class="submit-btn" style="margin-top:16px" onclick="submitOrder()">✅ Confirm &amp; Send via WhatsApp</button>
     <div class="divider"><span>OR PAY ONLINE</span></div>
-    <a id="psBuyLink" href="https://paystack.shop/pay/xjnypb0qml" target="_blank" class="ps-pay-btn">⚡ Pay Instantly with Paystack</a>
+    <a id="psBuyLink" href="https://paystack.shop/pay/9lz9bxttz2" target="_blank" class="ps-pay-btn">⚡ Pay Instantly with Paystack</a>
   </div>
 </div>
 
@@ -433,14 +433,17 @@ let settings = load('falaaa_v2_settings',{siteName:'Falaaa Data Bundle',waNumber
 
 if(!bundles.length){
   bundles=[
-    {network:'MTN',size:'1GB',validity:'1 Day',price:3,featured:false},
-    {network:'MTN',size:'3GB',validity:'7 Days',price:8,featured:false},
-    {network:'MTN',size:'5GB',validity:'30 Days',price:15,featured:true},
-    {network:'MTN',size:'10GB',validity:'30 Days',price:28,featured:false},
-    {network:'Vodafone',size:'2GB',validity:'7 Days',price:6,featured:false},
-    {network:'Vodafone',size:'5GB',validity:'30 Days',price:13,featured:false},
-    {network:'AirtelTigo',size:'3GB',validity:'14 Days',price:9,featured:false},
-    {network:'AirtelTigo',size:'5GB',validity:'30 Days',price:14,featured:true},
+    {network:'MTN',size:'8GB',validity:'365 Day',price:28.8,featured:false},
+    {network:'MTN',size:'7GB',validity:'365 Day',price:23.8,featured:false},
+    {network:'MTN',size:'6GB',validity:'365 Day',price:19.8,featured:false},
+    {network:'MTN',size:'1GB',validity:'365 Day',price:4.8,featured:false},
+    {network:'MTN',size:'2GB',validity:'365 Days',price:8.8,featured:false},
+    {network:'MTN',size:'4GB',validity:'365 Days',price:14.5,featured:true},
+    {network:'MTN',size:'5GB',validity:'365 Days',price:18.9,featured:false},
+    {network:'Vodafone',size:'2GB',validity:'365 Days',price:7,featured:false},
+    {network:'Vodafone',size:'5GB',validity:'365 Days',price:13,featured:false},
+    {network:'AirtelTigo',size:'3GB',validity:'365 Days',price:10,featured:false},
+    {network:'AirtelTigo',size:'5GB',validity:'365 Days',price:14,featured:true},
   ];
   save('falaaa_v2_bundles',bundles);
 }
